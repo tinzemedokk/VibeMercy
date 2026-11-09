@@ -1,0 +1,15 @@
+藏果源完整网站交付包
+
+01_website/：完整网站源码、运行配置、优化后的网页图片。
+02_design_reference/：最终五页设计图、品牌原始参考、需求与任务说明。
+03_original_images/：本次生成的九张高清原图。
+04_deployment/：与当前线上版本对应的部署归档。
+
+线上地址：https://cangguoyuan-design.donzhou.chatgpt.site
+当前仅本人可见，需登录 ChatGPT。
+
+启动：进入 01_website，安装 Node.js 22.13+ 和 pnpm，然后执行 pnpm install、pnpm dev。
+更多运行和内容替换说明见 01_website/README.md。
+
+不包含 node_modules、Git 历史、运行缓存或访问凭据。
+共享链接未能直接读取，复刻依据此前最终五页设计包；配图含 AI 生成示意，真实商品、案例、二维码与经营资料尚待补充。
