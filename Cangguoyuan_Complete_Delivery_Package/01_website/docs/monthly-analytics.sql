@@ -1,0 +1,1 @@
+SELECT month,COUNT(DISTINCT session) AS sessions,SUM(event='page_view') AS page_views,SUM(event='phone_click') AS phone_clicks,SUM(event='contact_open') AS contact_opens,COUNT(DISTINCT CASE WHEN event IN ('phone_click','contact_open') THEN session END) AS contact_sessions FROM website_events WHERE month=? GROUP BY month;
